@@ -14,3 +14,5 @@ def hello_world():
 
     f.close()
     return render_template('index.html', content=content)
+
+app.run(host = '0.0.0.0', port=5000)
